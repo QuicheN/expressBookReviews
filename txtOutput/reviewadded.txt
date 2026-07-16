@@ -1,0 +1,7 @@
+kishensargur@Kishens-MacBook-Pro-2 final_project % make review
+== register ==
+{"message":"User successfully registered. Now you can login"}
+== login ==
+{"message":"Login successful"}
+== add review ==
+{"message":"Review added/updated successfully"}

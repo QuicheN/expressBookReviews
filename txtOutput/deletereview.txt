@@ -1,0 +1,9 @@
+kishensargur@Kishens-MacBook-Pro-2 final_project % make delete-review ID=4
+== delete review (id=4) ==
+{"message":"Review deleted successfully"}
+== book after delete ==
+{
+    "author": "Unknown",
+    "title": "The Epic Of Gilgamesh",
+    "reviews": {}
+}

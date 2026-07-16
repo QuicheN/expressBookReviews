@@ -1,0 +1,2 @@
+kishensargur@Kishens-MacBook-Pro-2 final_project % curl --json '{"username": "kssreads", "password": "12345"}' http://localhost:5001/customer/login
+{"message":"Login successful"}%        
