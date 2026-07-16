@@ -1,0 +1,6 @@
+kishensargur@Kishens-MacBook-Pro-2 final_project % curl http://localhost:5001/isbn/2
+{
+    "author": "Hans Christian Andersen",
+    "title": "Fairy tales",
+    "reviews": {}
+}%                                           

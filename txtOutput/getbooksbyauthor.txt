@@ -1,0 +1,9 @@
+kishensargur@Kishens-MacBook-Pro-2 final_project % curl http://localhost:5001/author/janeausten
+[
+    {
+        "author": "Jane Austen",
+        "title": "Pride and Prejudice",
+        "reviews": {}
+    }
+]%                                                                                              
+kishensargur@Kishens-MacBook-Pro-2 final_project % 
