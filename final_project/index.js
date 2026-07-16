@@ -11,8 +11,9 @@ app.use(express.json());
 app.use("/customer",session({secret:"fingerprint_customer",resave: true, saveUninitialized: true}))
 
 app.use("/customer/auth/*", function auth(req,res,next){
+        console.log(JSON.stringify(req.session.authorization, null, 4));
     if (req.session.authorization){
-        token = req.session.authorization['accessToken'];
+        var token = req.session.authorization['accessToken'];
     }
 
     //Verify the token
